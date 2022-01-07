@@ -61,6 +61,24 @@ body {
 
 .logo {
   height: 3.25rem;
+  margin-left: 3rem;
+}
+
+.search {
+  background-color: orangered;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+.search__input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: var(--color-grey-light-2);
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 100px;
 }
 
 .search__icon {
@@ -91,6 +109,12 @@ body {
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-dark-2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .content {

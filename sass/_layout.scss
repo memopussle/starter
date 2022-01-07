@@ -1,16 +1,21 @@
 .container {
-    max-width: 120rem;
-    margin: 8rem auto;
-    background-color: var(--color-grey-light-2);
-    box-shadow: var(--shadow-dark);
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-dark);
 
-    min-height: 50rem;
+  min-height: 50rem;
 }
 
 .header {
+  font-size: 1.4rem; //because input inherit font=size from parent element
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-dark-2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -25,6 +30,6 @@
 
 .hotel-view {
   background-color: red;
-  
+
   flex: 1;
 }
