@@ -419,6 +419,17 @@ body {
   }
 }
 
+.paragraph:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+.list {
+  margin: 3rem 0;
+  list-style: none;
+  padding: 3rem 0;
+  border-top: var(--line);
+}
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
