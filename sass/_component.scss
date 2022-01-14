@@ -232,15 +232,36 @@
   }
 
   &__location {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon-location {
+    margin-right: 0.5rem;
   }
 
   &__rating {
+    background-color: var(--color-primary-light);
+    margin-left: 3rem;
+    color: white;
+    align-self: stretch;
+    padding: 0 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   &__rating-count {
+    font-size: 0.8rem;
+    text-transform: uppercase;
   }
 
   &__rating-average {
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin-bottom: -3px;
   }
 }
 
@@ -262,7 +283,8 @@
 
   &:focus {
     outline: none;
-    animation: pulsate 1s;
+    animation: pulsate 1s infinite;
+    //inifinite animation
   }
 }
 
