@@ -316,6 +316,9 @@
   list-style: none;
   padding: 3rem 0;
   border-top: var(--line);
+  border-bottom: var(--line);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 //////////////////////RECOMMEND//////////////////
