@@ -319,6 +319,27 @@
   border-bottom: var(--line);
   display: flex;
   flex-wrap: wrap;
+
+  &__item {
+    flex: 0 0 50%;
+    margin-bottom: 0.7rem;
+  }
+
+  &__item::before {
+    content: "";
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.7rem;
+
+    //older browsers
+    // background-image: url(../img/chevron-thin-right.svg);
+    // background-size: cover;
+
+    //New browers
+    //if it's supported
+    
+  }
 }
 
 //////////////////////RECOMMEND//////////////////
