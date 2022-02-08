@@ -55,4 +55,8 @@
   background-color: orchid;
   flex: 1;
   //takes up remaining space
+
+  &__item {
+    flex: 0 0 50%;
+  }
 }
